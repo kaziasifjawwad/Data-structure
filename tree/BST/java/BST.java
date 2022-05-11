@@ -9,7 +9,7 @@ public class BST {
             Node focus = root;
             while(true){
                 Node parent = focus;
-                if(focus.data<d){
+                if(d<focus.data){
                     focus = parent.left;
                     if(focus==null){
                         node.parent = parent;
